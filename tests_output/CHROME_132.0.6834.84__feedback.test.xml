@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="1">
+
+  <testsuite name="feedback.test"
+    errors="1" failures="0" hostname="" id="" package="feedback.test" skipped="0"
+    tests="1" time="0.1150" timestamp="">
+  
+    <testcase name="Scenario: Submit Feedback and Verify Display" classname="feedback.test" time="0.05700" assertions="0">
+    <error message="Trying to overwrite page object/section &#34;feedback&#34;  method/property &#34;navigate&#34;." type="error"><![CDATA[
+    Error: Trying to overwrite page object/section &#34;feedback&#34;  method/property &#34;navigate&#34;.
+    at /Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:99:27
+    at Array.forEach (&lt;anonymous&gt;)
+    at /Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:95:24
+    at Array.forEach (&lt;anonymous&gt;)
+    at Page.addCommands (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:91:14)
+    at new Page (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/index.js:55:10)
+    at PageObjectLoader.pageObjectDefinition (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/api/_loaders/page-object.js:56:12)
+    at Scenario: Submit Feedback and Verify Display (/Users/sydnec/Documents/quality-env-tests/src/tests/feedback.test.js:5:39)
+    at Context.call (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/testsuite/context.js:528:43)
+    at TestCase.run (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    ]]></error>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+       Error
+   Trying to overwrite page object/section &#34;contact&#34;  method/property &#34;navigate&#34;.
+    Using navigate.
+
+    Error location:
+    /Users/sydnec/Documents/quality-env-tests/src/tests/contact.test.js:5
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     3 | module.exports = {
+     4 |   &#39;Scenario: Submit Contact Form Successfully&#39;: function (browser) {
+     5 |     const contactPage = browser.page.contact(); 
+     6 | 
+     7 |     contactPage
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ Error
+   Trying to overwrite page object/section &#34;feedback&#34;  method/property &#34;navigate&#34;.
+    Using navigate.
+
+    Error location:
+    /Users/sydnec/Documents/quality-env-tests/src/tests/feedback.test.js:5
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     3 | module.exports = {
+     4 |   &#39;Scenario: Submit Feedback and Verify Display&#39;: function (browser) {
+     5 |     const feedbackPage = browser.page.feedback(); 
+     6 | 
+     7 |     feedbackPage
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ Error
+   Trying to overwrite page object/section &#34;login&#34;  method/property &#34;navigate&#34;.
+    Using navigate.
+
+    Error location:
+    /Users/sydnec/Documents/quality-env-tests/src/tests/login.test.js:5
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     3 | module.exports = {
+     4 |   &#39;Scenario 1: Successful Login and Redirect to Dashboard&#39;: function (browser) {
+     5 |     const loginPage = browser.page.login(); 
+     6 | 
+     7 |     loginPage
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+    </system-err>
+  
+
+    
+
+  
+  </testsuite>
+</testsuites>
