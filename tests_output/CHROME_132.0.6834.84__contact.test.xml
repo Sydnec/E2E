@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuites errors="1"
+<testsuites errors="8"
             failures="0"
             tests="1">
 
   <testsuite name="contact.test"
-    errors="1" failures="0" hostname="" id="" package="contact.test" skipped="0"
-    tests="1" time="0.2180" timestamp="">
+    errors="8" failures="0" hostname="" id="" package="contact.test" skipped="0"
+    tests="1" time="82.94" timestamp="">
   
-    <testcase name="Scenario: Submit Contact Form Successfully" classname="contact.test" time="0.1080" assertions="0">
-    <error message="Trying to overwrite page object/section &#34;contact&#34;  method/property &#34;navigate&#34;." type="error"><![CDATA[
-    Error: Trying to overwrite page object/section &#34;contact&#34;  method/property &#34;navigate&#34;.
-    at /Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:99:27
-    at Array.forEach (&lt;anonymous&gt;)
-    at /Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:95:24
-    at Array.forEach (&lt;anonymous&gt;)
-    at Page.addCommands (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/base-object.js:91:14)
-    at new Page (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/page-object/index.js:55:10)
-    at PageObjectLoader.pageObjectDefinition (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/api/_loaders/page-object.js:56:12)
-    at Scenario: Submit Contact Form Successfully (/Users/sydnec/Documents/quality-env-tests/src/tests/contact.test.js:5:38)
-    at Context.call (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/testsuite/context.js:528:43)
-    at TestCase.run (/Users/sydnec/Documents/quality-env-tests/node_modules/nightwatch/lib/testsuite/testcase.js:58:31)
+    <testcase name="Scenario: Submit Contact Form Successfully" classname="contact.test" time="41.47" assertions="1">
+
+    
+    <error message="An error occurred while running .click() command on &lt;@submitButton&gt;: Timed out while waiting for element &#34;@submitButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds." type="error"><![CDATA[
+    Error
+    at Scenario: Submit Contact Form Successfully (/Users/sydnec/Documents/E2E/src/tests/contact.test.js:16:8)
     ]]></error>
     
     </testcase>
@@ -27,47 +20,260 @@
 
   
     <system-err>
-       Error
-   Trying to overwrite page object/section &#34;contact&#34;  method/property &#34;navigate&#34;.
-    Using navigate.
+       NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@firstNameField&gt;: Timed out while waiting for element &#34;@firstNameField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
 
     Error location:
-    /Users/sydnec/Documents/quality-env-tests/src/tests/contact.test.js:5
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     3 | module.exports = {
-     4 |   &#39;Scenario: Submit Contact Form Successfully&#39;: function (browser) {
-     5 |     const contactPage = browser.page.contact(); 
-     6 | 
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:9
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
      7 |     contactPage
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 |       .navigateToContactPage()
+     9 |       .setValue(&#39;@firstNameField&#39;, &#39;Jean&#39;) 
+     10 |       .setValue(&#39;@lastNameField&#39;, &#39;Louis&#39;)
+     11 |       .setValue(&#39;@mobilePhoneField&#39;, &#39;0610203040&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
- Error
-   Trying to overwrite page object/section &#34;feedback&#34;  method/property &#34;navigate&#34;.
-    Using navigate.
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@lastNameField&gt;: Timed out while waiting for element &#34;@lastNameField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
 
     Error location:
-    /Users/sydnec/Documents/quality-env-tests/src/tests/feedback.test.js:5
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     3 | module.exports = {
-     4 |   &#39;Scenario: Submit Feedback and Verify Display&#39;: function (browser) {
-     5 |     const feedbackPage = browser.page.feedback(); 
-     6 | 
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:10
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 |       .navigateToContactPage()
+     9 |       .setValue(&#39;@firstNameField&#39;, &#39;Jean&#39;)
+     10 |       .setValue(&#39;@lastNameField&#39;, &#39;Louis&#39;) 
+     11 |       .setValue(&#39;@mobilePhoneField&#39;, &#39;0610203040&#39;)
+     12 |       .setValue(&#39;@emailField&#39;, &#39;jean.louis@email.com&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@mobilePhoneField&gt;: Timed out while waiting for element &#34;@mobilePhoneField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:11
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |       .setValue(&#39;@firstNameField&#39;, &#39;Jean&#39;)
+     10 |       .setValue(&#39;@lastNameField&#39;, &#39;Louis&#39;)
+     11 |       .setValue(&#39;@mobilePhoneField&#39;, &#39;0610203040&#39;) 
+     12 |       .setValue(&#39;@emailField&#39;, &#39;jean.louis@email.com&#39;)
+     13 |       .setValue(&#39;@arrivedAtField&#39;, &#39;2025-01-01&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@emailField&gt;: Timed out while waiting for element &#34;@emailField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:12
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |       .setValue(&#39;@lastNameField&#39;, &#39;Louis&#39;)
+     11 |       .setValue(&#39;@mobilePhoneField&#39;, &#39;0610203040&#39;)
+     12 |       .setValue(&#39;@emailField&#39;, &#39;jean.louis@email.com&#39;) 
+     13 |       .setValue(&#39;@arrivedAtField&#39;, &#39;2025-01-01&#39;)
+     14 |       .setValue(&#39;@departureAtField&#39;, &#39;2025-01-10&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@arrivedAtField&gt;: Timed out while waiting for element &#34;@arrivedAtField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:13
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     11 |       .setValue(&#39;@mobilePhoneField&#39;, &#39;0610203040&#39;)
+     12 |       .setValue(&#39;@emailField&#39;, &#39;jean.louis@email.com&#39;)
+     13 |       .setValue(&#39;@arrivedAtField&#39;, &#39;2025-01-01&#39;) 
+     14 |       .setValue(&#39;@departureAtField&#39;, &#39;2025-01-10&#39;)
+     15 |       .setValue(&#39;@messageField&#39;, &#39;This is a test message&#39;)
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@departureAtField&gt;: Timed out while waiting for element &#34;@departureAtField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:14
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     12 |       .setValue(&#39;@emailField&#39;, &#39;jean.louis@email.com&#39;)
+     13 |       .setValue(&#39;@arrivedAtField&#39;, &#39;2025-01-01&#39;)
+     14 |       .setValue(&#39;@departureAtField&#39;, &#39;2025-01-10&#39;) 
+     15 |       .setValue(&#39;@messageField&#39;, &#39;This is a test message&#39;)
+     16 |       .click(&#39;@submitButton&#39;);
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@messageField&gt;: Timed out while waiting for element &#34;@messageField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:15
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     13 |       .setValue(&#39;@arrivedAtField&#39;, &#39;2025-01-01&#39;)
+     14 |       .setValue(&#39;@departureAtField&#39;, &#39;2025-01-10&#39;)
+     15 |       .setValue(&#39;@messageField&#39;, &#39;This is a test message&#39;) 
+     16 |       .click(&#39;@submitButton&#39;);
+     17 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@submitButton&gt;: Timed out while waiting for element &#34;@submitButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/contact.test.js:16
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     14 |       .setValue(&#39;@departureAtField&#39;, &#39;2025-01-10&#39;)
+     15 |       .setValue(&#39;@messageField&#39;, &#39;This is a test message&#39;)
+     16 |       .click(&#39;@submitButton&#39;); 
+     17 | 
+     18 |     browser
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@nameField&gt;: Timed out while waiting for element &#34;@nameField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/feedback.test.js:9
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
      7 |     feedbackPage
-    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 |       .navigateToFeedbackPage()
+     9 |       .setValue(&#39;@nameField&#39;, &#39;Test User&#39;) 
+     10 |       .setValue(&#39;@messageField&#39;, &#39;This is a feedback message&#39;)
+     11 |       .click(&#39;@submitButton&#39;);
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
 
- Error
-   Trying to overwrite page object/section &#34;login&#34;  method/property &#34;navigate&#34;.
-    Using navigate.
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@messageField&gt;: Timed out while waiting for element &#34;@messageField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
 
     Error location:
-    /Users/sydnec/Documents/quality-env-tests/src/tests/login.test.js:5
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
-     3 | module.exports = {
-     4 |   &#39;Scenario 1: Successful Login and Redirect to Dashboard&#39;: function (browser) {
-     5 |     const loginPage = browser.page.login(); 
-     6 | 
-     7 |     loginPage
-    –––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+    /Users/sydnec/Documents/E2E/src/tests/feedback.test.js:10
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 |       .navigateToFeedbackPage()
+     9 |       .setValue(&#39;@nameField&#39;, &#39;Test User&#39;)
+     10 |       .setValue(&#39;@messageField&#39;, &#39;This is a feedback message&#39;) 
+     11 |       .click(&#39;@submitButton&#39;);
+     12 | 
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@submitButton&gt;: Timed out while waiting for element &#34;@submitButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/feedback.test.js:11
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |       .setValue(&#39;@nameField&#39;, &#39;Test User&#39;)
+     10 |       .setValue(&#39;@messageField&#39;, &#39;This is a feedback message&#39;)
+     11 |       .click(&#39;@submitButton&#39;); 
+     12 | 
+     13 |     browser
+    ––––––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ InvalidSelectorError
+   invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@usernameField&gt;: Timed out while waiting for element &#34;@usernameField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/login.test.js:10
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
+     8 |     loginPage
+     9 |       .navigateToLoginPage()
+     10 |       .setValue(&#39;@usernameField&#39;, &#39;TestE2E&#39;) 
+     11 |       .setValue(&#39;@passwordField&#39;, &#39;password123&#39;)
+     12 |       .click(&#39;@submitButton&#39;);
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .setValue() command on &lt;@passwordField&gt;: Timed out while waiting for element &#34;@passwordField&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/login.test.js:11
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
+     9 |       .navigateToLoginPage()
+     10 |       .setValue(&#39;@usernameField&#39;, &#39;TestE2E&#39;)
+     11 |       .setValue(&#39;@passwordField&#39;, &#39;password123&#39;) 
+     12 |       .click(&#39;@submitButton&#39;);
+     13 | 
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
+
+ NoSuchElementError
+   An error occurred while running .click() command on &lt;@submitButton&gt;: Timed out while waiting for element &#34;@submitButton&#34; with &#34;css selector&#34; to be present for 5000 milliseconds.
+    {&#34;error&#34;:{&#34;name&#34;:&#34;InvalidSelectorError&#34;,&#34;remoteStacktrace&#34;:&#34;&#34;},&#34;status&#34;:-1,&#34;value&#34;:null}
+
+    Try fixing by :
+    1. Please inspect the html before the step
+    2. Verify if an element with the mentioned selector is present in the DOM tree
+
+    Error location:
+    /Users/sydnec/Documents/E2E/src/tests/login.test.js:12
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
+     10 |       .setValue(&#39;@usernameField&#39;, &#39;TestE2E&#39;)
+     11 |       .setValue(&#39;@passwordField&#39;, &#39;password123&#39;)
+     12 |       .click(&#39;@submitButton&#39;); 
+     13 | 
+     14 |     browser
+    –––––––––––––––––––––––––––––––––––––––––––––––––––––
 
     </system-err>
   

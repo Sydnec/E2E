@@ -1,13 +1,13 @@
 module.exports = {
   elements: {
-    firstNameField: 'input[name="first_name"]',
-    lastNameField: 'input[name="last_name"]',
-    mobilePhoneField: 'input[name="mobile_phone"]',
+    firstNameField: 'input[name="firstName"]',
+    lastNameField: 'input[name="lastName"]',
+    mobilePhoneField: 'input[name="mobilePhone"]',
     emailField: 'input[name="email"]',
-    arrivedAtField: 'input[name="arrived_at"]',
-    departureAtField: 'input[name="departure_at"]',
+    arrivedAtField: 'input[name="arrivedAt"]',
+    departureAtField: 'input[name="departureAt"]',
     messageField: 'textarea[name="message"]',
-    submitButton: 'button[type="submit"]',
+    submitButton: 'button[type="submit"]'
   },
 
   commands: [
