@@ -13,7 +13,7 @@ module.exports = {
   commands: [
     {
       navigateToContactPage() {
-        return this.api.url('http://localhost:3000/contact');
+        return this.api.url('http://localhost:9090/contact');
       },
     },
   ],

@@ -2,7 +2,7 @@ Starting ChromeDriver 132.0.6834.83 (03d59cf5ecf1d8444838ff9a1e96231304d4ff9c-re
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully on port 9515.
-[1737328148.450][INFO]: [658c79dc43158ba514e7cad1eee9aeb9] COMMAND InitSession {
+[1737363769.699][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -13,56 +13,56 @@ ChromeDriver was started successfully on port 9515.
       } ]
    }
 }
-[1737328148.450][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.450][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.450][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328148.450][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Chromium.app/Contents/MacOS/Chromium
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328148.451][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328148.451][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328148.451][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328148.452][INFO]: Populating Preferences file: {
+[1737363769.699][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Chromium.app/Contents/MacOS/Chromium
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363769.700][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363769.700][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363769.700][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363769.702][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -115,7 +115,7 @@ ChromeDriver was started successfully on port 9515.
       "enabled": false
    }
 }
-[1737328148.452][INFO]: Populating Local State file: {
+[1737363769.703][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -125,130 +125,132 @@ ChromeDriver was started successfully on port 9515.
       }
    }
 }
-[1737328148.452][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1737328148.452][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1737328148.452][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.cZOynT data:,
-[76034:259:0120/000908.721495:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[1737363769.704][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1737363769.704][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1737363769.704][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.zEfo0y data:,
+[81393:259:0120/100251.629572:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
 
-DevTools listening on ws://127.0.0.1:54999/devtools/browser/1ce9a54d-c658-4764-bca3-9d26c6bf5737
-[1737328148.775][DEBUG]: DevTools HTTP Request: http://localhost:54999/json/version
-[76038:259:0120/000908.909895:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[1737328149.146][DEBUG]: DevTools HTTP Response: {
+DevTools listening on ws://127.0.0.1:64273/devtools/browser/08185dbb-bb16-49d3-b9dc-bf64fdfb151b
+[1737363772.171][DEBUG]: DevTools HTTP Request: http://localhost:64273/json/version
+[81399:259:0120/100252.617428:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+2025-01-20 10:02:53.969 Google Chrome[81393:11887309] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-20 10:02:53.969 Google Chrome[81393:11887309] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+[1737363774.087][DEBUG]: DevTools HTTP Response: {
    "Browser": "Chrome/132.0.6834.84",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
    "V8-Version": "13.2.152.27",
    "WebKit-Version": "537.36 (@c1a6c2d428b5b484febdecda9475aba38de5a502)",
-   "webSocketDebuggerUrl": "ws://localhost:54999/devtools/browser/1ce9a54d-c658-4764-bca3-9d26c6bf5737"
+   "webSocketDebuggerUrl": "ws://localhost:64273/devtools/browser/08185dbb-bb16-49d3-b9dc-bf64fdfb151b"
 }
 
-[1737328149.146][DEBUG]: DevTools HTTP Request: http://localhost:54999/json/list
-[1737328149.160][DEBUG]: DevTools HTTP Response: [ {
+[1737363774.087][DEBUG]: DevTools HTTP Request: http://localhost:64273/json/list
+[1737363774.139][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:54999/devtools/page/18731017E470E75C9893CC4E28E31C87",
-   "id": "18731017E470E75C9893CC4E28E31C87",
-   "title": "",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:64273/devtools/page/C6BF7E7E081F6302832FF7C8B443019B",
+   "id": "C6BF7E7E081F6302832FF7C8B443019B",
+   "title": "data:,",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:54999/devtools/page/18731017E470E75C9893CC4E28E31C87"
+   "webSocketDebuggerUrl": "ws://localhost:64273/devtools/page/C6BF7E7E081F6302832FF7C8B443019B"
 } ]
 
-[1737328149.169][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1737328149.180][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1737363774.179][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1737363774.187][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1737328149.181][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1737363774.190][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "A0E2A9F14A23DC0A01363C5F9936730C",
+      "browserContextId": "8D8783C778B52E909A9A7BA5C6A7DD6A",
       "canAccessOpener": false,
-      "targetId": "18731017E470E75C9893CC4E28E31C87",
+      "targetId": "C6BF7E7E081F6302832FF7C8B443019B",
       "title": "data:,",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1737328149.181][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1737363774.190][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "18731017E470E75C9893CC4E28E31C87"
+   "targetId": "C6BF7E7E081F6302832FF7C8B443019B"
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "7BECCAA39106F57D9C799AA4CD0C8D6D",
+[1737363774.192][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "8A9176924D37A8B10A40F24F5D68C55D",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "A0E2A9F14A23DC0A01363C5F9936730C",
+      "browserContextId": "8D8783C778B52E909A9A7BA5C6A7DD6A",
       "canAccessOpener": false,
-      "targetId": "18731017E470E75C9893CC4E28E31C87",
+      "targetId": "C6BF7E7E081F6302832FF7C8B443019B",
       "title": "data:,",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "7BECCAA39106F57D9C799AA4CD0C8D6D"
+[1737363774.192][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "8A9176924D37A8B10A40F24F5D68C55D"
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.192][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.192][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.192][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1737328149.202][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.193][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.203][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.193][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1737328149.203][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.196][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.196][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "identifier": "1"
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=5) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.196][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=5) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "result": {
       "type": "undefined"
    }
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Log.enable (id=6) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.196][DEBUG]: DevTools WebSocket Response: Log.enable (id=6) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.197][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.197][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.201][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
    "context": {
       "auxData": {
-         "frameId": "18731017E470E75C9893CC4E28E31C87",
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "://",
-      "uniqueId": "-5189300656219042304.-7568321687618795089"
+      "uniqueId": "-8261469514624349770.-7991474132916617333"
    }
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.201][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.201][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=7BECCAA39106F57D9C799AA4CD0C8D6D) 18731017E470E75C9893CC4E28E31C87 {
+[1737363774.202][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
 }
-[1737328149.204][INFO]: [658c79dc43158ba514e7cad1eee9aeb9] RESPONSE InitSession {
+[1737363774.202][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "132.0.6834.84",
       "chrome": {
          "chromedriverVersion": "132.0.6834.83 (03d59cf5ecf1d8444838ff9a1e96231304d4ff9c-refs/branch-heads/6834@{#3390})",
-         "userDataDir": "/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.cZOynT"
+         "userDataDir": "/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.zEfo0y"
       },
       "fedcm:accounts": true,
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:54999"
+         "debuggerAddress": "localhost:64273"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -269,10 +271,1688 @@ DevTools listening on ws://127.0.0.1:54999/devtools/browser/1ce9a54d-c658-4764-b
       "webauthn:extension:prf": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "658c79dc43158ba514e7cad1eee9aeb9"
+   "sessionId": "b1ccd5b8ba01c5ac9d0c0887f60e5ebb"
 }
-[1737328149.270][INFO]: [658c79dc43158ba514e7cad1eee9aeb9] COMMAND Quit {
+[1737363774.276][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND Navigate {
+   "url": "http://localhost:9090/feedback"
 }
-[1737328149.322][INFO]: [658c79dc43158ba514e7cad1eee9aeb9] RESPONSE Quit
-[1737328149.322][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1737328149.322][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1737363774.276][INFO]: Waiting for pending navigations...
+[1737363774.276][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363774.277][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363774.277][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=11) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "document",
+   "objectGroup": "2415e80c-4903-4654-ab3f-8114df394dcd"
+}
+[1737363774.278][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=11) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "HTMLDocument",
+      "description": "#document",
+      "objectId": "2168078319130422377.1.1",
+      "subtype": "node",
+      "type": "object"
+   }
+}
+[1737363774.278][DEBUG]: DevTools WebSocket Command: DOM.describeNode (id=12) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "objectId": "2168078319130422377.1.1"
+}
+[1737363774.284][DEBUG]: DevTools WebSocket Response: DOM.describeNode (id=12) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "node": {
+      "backendNodeId": 1,
+      "baseURL": "data:,",
+      "childNodeCount": 1,
+      "compatibilityMode": "NoQuirksMode",
+      "documentURL": "data:,",
+      "localName": "",
+      "nodeId": 0,
+      "nodeName": "#document",
+      "nodeType": 9,
+      "nodeValue": "",
+      "xmlVersion": ""
+   }
+}
+[1737363774.284][DEBUG]: DevTools WebSocket Command: Runtime.releaseObjectGroup (id=13) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "objectGroup": "2415e80c-4903-4654-ab3f-8114df394dcd"
+}
+[1737363774.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-8261469514624349770.-7991474132916617333"
+}
+[1737363774.285][DEBUG]: DevTools WebSocket Response: Runtime.releaseObjectGroup (id=13) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363774.286][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363774.286][INFO]: Done waiting for pending navigations. Status: ok
+[1737363774.286][DEBUG]: DevTools WebSocket Command: Page.navigate (id=15) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363774.301][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363774.337][DEBUG]: DevTools WebSocket Response: Page.navigate (id=15) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+   "loaderId": "F34A7A81003542164012185023AC2C0A"
+}
+[1737363774.337][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=16) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363775.078][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363775.083][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363775.083][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C6BF7E7E081F6302832FF7C8B443019B",
+      "loaderId": "31752A566C5181B04291D977F08F3FC8",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://localhost:9090/feedback",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363775.130][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "context": {
+      "auxData": {
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "8999228591116706481.2884347856855915834"
+   }
+}
+[1737363775.135][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842847.795173
+}
+[1737363775.222][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842847.813909
+}
+[1737363775.222][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "8999228591116706481.2884347856855915834"
+}
+[1737363775.225][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363775.227][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=16) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363775.229][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363775.229][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363775.229][INFO]: Waiting for pending navigations...
+[1737363775.229][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363775.229][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363775.229][INFO]: Done waiting for pending navigations. Status: ok
+[1737363775.229][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363775.234][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363776.239][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND Navigate {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363776.239][INFO]: Waiting for pending navigations...
+[1737363776.239][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.240][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.240][INFO]: Done waiting for pending navigations. Status: ok
+[1737363776.240][DEBUG]: DevTools WebSocket Command: Page.navigate (id=20) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363776.251][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.261][DEBUG]: DevTools WebSocket Response: Page.navigate (id=20) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+   "loaderId": "AE12890D87B1B3280966A86EF9D9E4F3"
+}
+[1737363776.261][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=21) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.264][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363776.264][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C6BF7E7E081F6302832FF7C8B443019B",
+      "loaderId": "B3ED63284C6F168F4CEC4F9A768FBF3C",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://localhost:9090/feedback",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363776.268][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "context": {
+      "auxData": {
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "3269230354549346149.-1727738656742728744"
+   }
+}
+[1737363776.272][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.94986
+}
+[1737363776.272][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=21) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.272][INFO]: Waiting for pending navigations...
+[1737363776.272][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.272][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.950633
+}
+[1737363776.272][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "3269230354549346149.-1727738656742728744"
+}
+[1737363776.273][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.273][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.273][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363776.273][INFO]: Done waiting for pending navigations. Status: ok
+[1737363776.273][DEBUG]: DevTools WebSocket Command: Page.navigate (id=24) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363776.275][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.276][DEBUG]: DevTools WebSocket Response: Page.navigate (id=24) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+   "loaderId": "8DA0415E06CA66EE3BB6F679C0031769"
+}
+[1737363776.277][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.278][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363776.278][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C6BF7E7E081F6302832FF7C8B443019B",
+      "loaderId": "1B4CFEB5A1980C7C5AEFD5FCAF120B8D",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://localhost:9090/feedback",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363776.280][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "context": {
+      "auxData": {
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-4893556830747107775.-889023913917059520"
+   }
+}
+[1737363776.280][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.280][INFO]: Waiting for pending navigations...
+[1737363776.280][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=26) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.284][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.962549
+}
+[1737363776.284][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=26) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.963188
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-4893556830747107775.-889023913917059520"
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.285][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.285][INFO]: Done waiting for pending navigations. Status: ok
+[1737363776.285][DEBUG]: DevTools WebSocket Command: Page.navigate (id=29) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363776.287][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.289][DEBUG]: DevTools WebSocket Response: Page.navigate (id=29) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+   "loaderId": "9BD7842372A4F3278F9FC01EA5FF5EEF"
+}
+[1737363776.289][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=30) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.290][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363776.290][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C6BF7E7E081F6302832FF7C8B443019B",
+      "loaderId": "4ED722F5AAE736DCF77DBD65349AB17F",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://localhost:9090/feedback",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363776.292][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "context": {
+      "auxData": {
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "2856390626571161749.-5348690854461146020"
+   }
+}
+[1737363776.292][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=30) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.292][INFO]: Waiting for pending navigations...
+[1737363776.292][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.296][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.974838
+}
+[1737363776.296][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842848.975412
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "2856390626571161749.-5348690854461146020"
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363776.297][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363776.297][INFO]: Done waiting for pending navigations. Status: ok
+[1737363776.297][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363777.339][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND Navigate {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363777.339][INFO]: Waiting for pending navigations...
+[1737363777.339][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=34) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.343][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=34) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.343][INFO]: Done waiting for pending navigations. Status: ok
+[1737363777.343][DEBUG]: DevTools WebSocket Command: Page.navigate (id=35) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "url": "http://localhost:9090/feedback"
+}
+[1737363777.352][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363777.378][DEBUG]: DevTools WebSocket Response: Page.navigate (id=35) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+   "loaderId": "42B0F68C3C623D522F5C9BECF9396819"
+}
+[1737363777.392][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.392][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363777.393][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "C6BF7E7E081F6302832FF7C8B443019B",
+      "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://localhost:9090/feedback",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363777.393][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "context": {
+      "auxData": {
+         "frameId": "C6BF7E7E081F6302832FF7C8B443019B",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-4922990586450743379.-3768820383486260428"
+   }
+}
+[1737363777.393][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842850.045893
+}
+[1737363777.393][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "timestamp": 842850.047435
+}
+[1737363777.393][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363777.395][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363777.395][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.395][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363777.395][INFO]: Waiting for pending navigations...
+[1737363777.395][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.396][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.396][INFO]: Done waiting for pending navigations. Status: ok
+[1737363777.396][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363777.421][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363777.422][INFO]: Waiting for pending navigations...
+[1737363777.422][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.422][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.422][INFO]: Done waiting for pending navigations. Status: ok
+[1737363777.425][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=40) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363777.428][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=40) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363777.428][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=41) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363777.428][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=41) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363777.431][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=42) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363777.447][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=42) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.1",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363777.450][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.451][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.451][INFO]: Waiting for pending navigations...
+[1737363777.451][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.451][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.451][INFO]: Done waiting for pending navigations. Status: ok
+[1737363777.451][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+2025-01-20 10:02:57.857 Google Chrome[81393:11887309] _TIPropertyValueIsValid called with 16 on nil context!
+2025-01-20 10:02:57.857 Google Chrome[81393:11887309] imkxpc_getApplicationProperty:reply: called with incorrect property value 16, bailing.
+2025-01-20 10:02:57.858 Google Chrome[81393:11887309] Text input context does not respond to _valueForTIProperty:
+[1737363777.994][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363777.994][INFO]: Waiting for pending navigations...
+[1737363777.994][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=45) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363777.996][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=45) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363777.996][INFO]: Done waiting for pending navigations. Status: ok
+[1737363777.996][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=46) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363777.997][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=46) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363777.997][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=47) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363777.998][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=47) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363778.004][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=48) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363778.011][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=48) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.2",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363778.012][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=49) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363778.012][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=49) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363778.012][INFO]: Waiting for pending navigations...
+[1737363778.012][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=50) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363778.013][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=50) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363778.013][INFO]: Done waiting for pending navigations. Status: ok
+[1737363778.013][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363778.517][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363778.517][INFO]: Waiting for pending navigations...
+[1737363778.517][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=51) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363778.518][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=51) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363778.518][INFO]: Done waiting for pending navigations. Status: ok
+[1737363778.518][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=52) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363778.519][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=52) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363778.519][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=53) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363778.519][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=53) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363778.520][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=54) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363778.522][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=54) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.3",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363778.522][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=55) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363778.522][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=55) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363778.522][INFO]: Waiting for pending navigations...
+[1737363778.522][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=56) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363778.522][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=56) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363778.522][INFO]: Done waiting for pending navigations. Status: ok
+[1737363778.522][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363779.024][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363779.024][INFO]: Waiting for pending navigations...
+[1737363779.024][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=57) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.025][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=57) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.025][INFO]: Done waiting for pending navigations. Status: ok
+[1737363779.025][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=58) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363779.025][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=58) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363779.025][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=59) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363779.026][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=59) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363779.026][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=60) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363779.028][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=60) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.4",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363779.028][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=61) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.029][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=61) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.029][INFO]: Waiting for pending navigations...
+[1737363779.029][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=62) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.029][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=62) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.029][INFO]: Done waiting for pending navigations. Status: ok
+[1737363779.029][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363779.538][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363779.539][INFO]: Waiting for pending navigations...
+[1737363779.539][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=63) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.540][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=63) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.540][INFO]: Done waiting for pending navigations. Status: ok
+[1737363779.540][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=64) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363779.541][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=64) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363779.541][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=65) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363779.542][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=65) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363779.543][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=66) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363779.545][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=66) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.5",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363779.545][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=67) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.546][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=67) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.546][INFO]: Waiting for pending navigations...
+[1737363779.546][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=68) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363779.547][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=68) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363779.547][INFO]: Done waiting for pending navigations. Status: ok
+[1737363779.547][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363780.051][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363780.051][INFO]: Waiting for pending navigations...
+[1737363780.051][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=69) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.052][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=69) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.052][INFO]: Done waiting for pending navigations. Status: ok
+[1737363780.052][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=70) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363780.052][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=70) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363780.052][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=71) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363780.052][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=71) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363780.053][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=72) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363780.055][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=72) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.6",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363780.055][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=73) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.055][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=73) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.055][INFO]: Waiting for pending navigations...
+[1737363780.055][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=74) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.055][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=74) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.055][INFO]: Done waiting for pending navigations. Status: ok
+[1737363780.055][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363780.564][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363780.564][INFO]: Waiting for pending navigations...
+[1737363780.564][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=75) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.565][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=75) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.565][INFO]: Done waiting for pending navigations. Status: ok
+[1737363780.565][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=76) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363780.566][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=76) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363780.566][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=77) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363780.567][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=77) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363780.569][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=78) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363780.572][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=78) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.7",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363780.572][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=79) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.573][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=79) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.573][INFO]: Waiting for pending navigations...
+[1737363780.573][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=80) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363780.573][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=80) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363780.573][INFO]: Done waiting for pending navigations. Status: ok
+[1737363780.573][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363781.076][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363781.076][INFO]: Waiting for pending navigations...
+[1737363781.076][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=81) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363781.077][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=81) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363781.077][INFO]: Done waiting for pending navigations. Status: ok
+[1737363781.077][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=82) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363781.077][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=82) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363781.077][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=83) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+}
+[1737363781.078][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=83) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "C6BF7E7E081F6302832FF7C8B443019B",
+         "loaderId": "26726E87FABAA5D9041D5697C83B40FE",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://localhost:9090/feedback",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363781.079][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=84) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-4922990586450743379.-3768820383486260428"
+}
+[1737363781.081][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=84) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-7330539101745031784.5.8",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363781.082][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=85) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363781.082][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=85) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363781.082][INFO]: Waiting for pending navigations...
+[1737363781.082][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=86) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "expression": "1"
+}
+[1737363781.082][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=86) (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363781.082][INFO]: Done waiting for pending navigations. Status: ok
+[1737363781.082][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363781.496][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=8A9176924D37A8B10A40F24F5D68C55D) C6BF7E7E081F6302832FF7C8B443019B {
+   "reason": "Render process gone."
+}
+[1737363781.503][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=) browser {
+   "sessionId": "8A9176924D37A8B10A40F24F5D68C55D",
+   "targetId": "C6BF7E7E081F6302832FF7C8B443019B"
+}
+[1737363781.585][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363781.585][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363782.089][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363782.089][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363782.594][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@nameField"
+}
+[1737363782.594][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363782.603][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363782.603][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363783.106][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363783.106][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363783.609][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363783.609][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363784.113][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363784.113][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363784.617][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363784.617][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363785.120][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363785.120][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363785.623][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363785.623][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363786.129][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363786.129][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363786.633][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363786.633][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363787.136][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363787.136][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363787.640][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@messageField"
+}
+[1737363787.640][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363787.645][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363787.645][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363788.148][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363788.148][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363788.650][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363788.650][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363789.153][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363789.154][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363789.658][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363789.658][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363790.161][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363790.161][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363790.665][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363790.665][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363791.169][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363791.169][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363791.671][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363791.671][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363792.175][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363792.175][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363792.678][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363792.679][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363794.694][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363794.694][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363795.198][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363795.198][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363795.702][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363795.702][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363796.205][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363796.205][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363796.709][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363796.709][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363797.212][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363797.213][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363797.715][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363797.715][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363798.219][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363798.219][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363798.722][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363798.722][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363799.225][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363799.225][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363799.730][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@feedbackList"
+}
+[1737363799.730][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363799.808][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] COMMAND Quit {
+}
+[1737363799.955][INFO]: [b1ccd5b8ba01c5ac9d0c0887f60e5ebb] RESPONSE Quit
+[1737363799.955][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1737363799.955][DEBUG]: Log type 'browser' lost 0 entries on destruction

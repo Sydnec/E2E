@@ -5,7 +5,7 @@ module.exports = {
     const feedbackPage = browser.page.feedback();
 
     feedbackPage
-      .navigate()
+      .navigateToFeedbackPage()
       .setValue('@nameField', 'Test User')
       .setValue('@messageField', 'This is a feedback message')
       .click('@submitButton');

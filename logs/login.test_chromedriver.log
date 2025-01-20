@@ -2,7 +2,7 @@ Starting ChromeDriver 132.0.6834.83 (03d59cf5ecf1d8444838ff9a1e96231304d4ff9c-re
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
 ChromeDriver was started successfully on port 9515.
-[1737328149.371][INFO]: [aba5c9b1aa385170ad413bac2aeaebb1] COMMAND InitSession {
+[1737363596.623][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND InitSession {
    "capabilities": {
       "alwaysMatch": {
          "browserName": "chrome",
@@ -13,56 +13,56 @@ ChromeDriver was started successfully on port 9515.
       } ]
    }
 }
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Chromium.app/Contents/MacOS/Chromium
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/quality-env-tests/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
-[1737328149.371][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328149.371][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328149.372][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
-[1737328149.372][INFO]: Populating Preferences file: {
+[1737363596.623][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.623][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.623][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363596.623][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Chromium.app/Contents/MacOS/Chromium
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Applications/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/chromedriver/lib/chromedriver/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/E2E/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Documents/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /node_modules/.bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /opt/homebrew/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /System/Cryptexes/App/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /usr/sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /sbin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Library/Apple/usr/bin/Google Chrome for Testing.app/Contents/MacOS/Google Chrome for Testing
+[1737363596.624][INFO]: Browser search. Trying... /Users/sydnec/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363596.624][INFO]: Browser search. Trying... /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363596.624][INFO]: Browser search. Found at  /Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+[1737363596.624][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -115,7 +115,7 @@ ChromeDriver was started successfully on port 9515.
       "enabled": false
    }
 }
-[1737328149.373][INFO]: Populating Local State file: {
+[1737363596.625][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -125,130 +125,139 @@ ChromeDriver was started successfully on port 9515.
       }
    }
 }
-[1737328149.373][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
-[1737328149.373][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
-[1737328149.373][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.O584eE data:,
-[76061:259:0120/000909.554767:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
+[1737363596.625][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1737363596.625][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1737363596.625][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --allow-pre-commit-input --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging=stderr --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.36oifH data:,
+[81157:259:0120/095957.390948:INFO:chrome_browser_cloud_management_controller.cc(196)] No machine level policy manager exists.
 
-DevTools listening on ws://127.0.0.1:55007/devtools/browser/589d16ae-e409-410a-aa50-96236ca5c75b
-[1737328149.592][DEBUG]: DevTools HTTP Request: http://localhost:55007/json/version
-[76065:259:0120/000909.727499:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
-[1737328149.953][DEBUG]: DevTools HTTP Response: {
+DevTools listening on ws://127.0.0.1:63915/devtools/browser/21697544-de41-4c51-ae90-e0c2eb0a1e18
+[1737363597.539][DEBUG]: DevTools HTTP Request: http://localhost:63915/json/version
+[81161:259:0120/095957.603769:WARNING:viz_main_impl.cc(85)] VizNullHypothesis is disabled (not a warning)
+[1737363598.130][DEBUG]: DevTools HTTP Response: {
    "Browser": "Chrome/132.0.6834.84",
    "Protocol-Version": "1.3",
    "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36",
    "V8-Version": "13.2.152.27",
    "WebKit-Version": "537.36 (@c1a6c2d428b5b484febdecda9475aba38de5a502)",
-   "webSocketDebuggerUrl": "ws://localhost:55007/devtools/browser/589d16ae-e409-410a-aa50-96236ca5c75b"
+   "webSocketDebuggerUrl": "ws://localhost:63915/devtools/browser/21697544-de41-4c51-ae90-e0c2eb0a1e18"
 }
 
-[1737328149.953][DEBUG]: DevTools HTTP Request: http://localhost:55007/json/list
-[1737328149.979][DEBUG]: DevTools HTTP Response: [ {
+[1737363598.130][DEBUG]: DevTools HTTP Request: http://localhost:63915/json/list
+[1737363598.185][DEBUG]: DevTools HTTP Response: [ {
    "description": "",
-   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:55007/devtools/page/E4A22B64BA2B1BE602E52EC5807AD146",
-   "id": "E4A22B64BA2B1BE602E52EC5807AD146",
+   "devtoolsFrontendUrl": "/devtools/inspector.html?ws=localhost:63915/devtools/page/5E39C7508841D5C66DE2D46F418EE43F",
+   "id": "5E39C7508841D5C66DE2D46F418EE43F",
    "title": "",
    "type": "page",
    "url": "data:,",
-   "webSocketDebuggerUrl": "ws://localhost:55007/devtools/page/E4A22B64BA2B1BE602E52EC5807AD146"
+   "webSocketDebuggerUrl": "ws://localhost:63915/devtools/page/5E39C7508841D5C66DE2D46F418EE43F"
 } ]
 
-[1737328149.981][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1737328149.988][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
+[1737363598.186][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1737363598.193][DEBUG]: DevTools WebSocket Command: Target.getTargets (id=1) (session_id=) browser {
 }
-[1737328149.998][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
+[1737363598.196][DEBUG]: DevTools WebSocket Response: Target.getTargets (id=1) (session_id=) browser {
    "targetInfos": [ {
       "attached": false,
-      "browserContextId": "34AE5842A19251B4D5D1554805371FB2",
+      "browserContextId": "B6CE1800DA121F6159BA7CB172E02F14",
       "canAccessOpener": false,
-      "targetId": "E4A22B64BA2B1BE602E52EC5807AD146",
-      "title": "data:,",
+      "targetId": "5E39C7508841D5C66DE2D46F418EE43F",
+      "title": "",
       "type": "page",
       "url": "data:,"
    } ]
 }
-[1737328149.998][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
+[1737363598.196][DEBUG]: DevTools WebSocket Command: Target.attachToTarget (id=2) (session_id=) browser {
    "flatten": true,
-   "targetId": "E4A22B64BA2B1BE602E52EC5807AD146"
+   "targetId": "5E39C7508841D5C66DE2D46F418EE43F"
 }
-[1737328150.018][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
-   "sessionId": "D535C0E628EE6D69E5F9A8217A4F1248",
+[1737363598.199][DEBUG]: DevTools WebSocket Event: Target.attachedToTarget (session_id=) browser {
+   "sessionId": "FD9FCB966209BB77BB5C721D2C00D357",
    "targetInfo": {
       "attached": true,
-      "browserContextId": "34AE5842A19251B4D5D1554805371FB2",
+      "browserContextId": "B6CE1800DA121F6159BA7CB172E02F14",
       "canAccessOpener": false,
-      "targetId": "E4A22B64BA2B1BE602E52EC5807AD146",
-      "title": "data:,",
+      "targetId": "5E39C7508841D5C66DE2D46F418EE43F",
+      "title": "",
       "type": "page",
       "url": "data:,"
    },
    "waitingForDebugger": false
 }
-[1737328150.018][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
-   "sessionId": "D535C0E628EE6D69E5F9A8217A4F1248"
+[1737363598.199][DEBUG]: DevTools WebSocket Response: Target.attachToTarget (id=2) (session_id=) browser {
+   "sessionId": "FD9FCB966209BB77BB5C721D2C00D357"
 }
-[1737328150.018][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.200][DEBUG]: DevTools WebSocket Command: Page.enable (id=3) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.019][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.200][DEBUG]: DevTools WebSocket Command: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "source": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1737328150.019][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.200][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=5) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "expression": "(function () {window.cdc_adoQpoasnfa76pfcZLmcfl_Array = window.Array;window.cdc_adoQpoasnfa76pfcZLmcfl_Object = window.Object;window.cdc_adoQpoasnfa76pfcZLmcfl_Promise = window.Promise;window.cdc_a..."
 }
-[1737328150.019][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.200][DEBUG]: DevTools WebSocket Command: Log.enable (id=6) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.019][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.200][DEBUG]: DevTools WebSocket Command: Target.setAutoAttach (id=7) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "autoAttach": true,
    "flatten": true,
    "waitForDebuggerOnStart": false
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Response: Page.enable (id=3) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Response: Page.addScriptToEvaluateOnNewDocument (id=4) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "identifier": "1"
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=5) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=5) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "result": {
       "type": "undefined"
    }
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Log.enable (id=6) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Response: Log.enable (id=6) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Response: Target.setAutoAttach (id=7) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.256][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=8) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.260][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842670.917615
+}
+[1737363598.260][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842670.918376
+}
+[1737363598.260][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.268][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
    "context": {
       "auxData": {
-         "frameId": "E4A22B64BA2B1BE602E52EC5807AD146",
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
          "isDefault": true,
          "type": "default"
       },
       "id": 1,
       "name": "",
       "origin": "://",
-      "uniqueId": "-7455597541010208516.4006882317936578708"
+      "uniqueId": "-2170780068609733155.4375912499701725261"
    }
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.268][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=8) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.268][DEBUG]: DevTools WebSocket Command: Runtime.enable (id=9) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=D535C0E628EE6D69E5F9A8217A4F1248) E4A22B64BA2B1BE602E52EC5807AD146 {
+[1737363598.299][DEBUG]: DevTools WebSocket Response: Runtime.enable (id=9) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
 }
-[1737328150.020][INFO]: [aba5c9b1aa385170ad413bac2aeaebb1] RESPONSE InitSession {
+[1737363598.299][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
       "browserVersion": "132.0.6834.84",
       "chrome": {
          "chromedriverVersion": "132.0.6834.83 (03d59cf5ecf1d8444838ff9a1e96231304d4ff9c-refs/branch-heads/6834@{#3390})",
-         "userDataDir": "/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.O584eE"
+         "userDataDir": "/var/folders/t3/_ynk_dyj6qs1jgyrghpvtxqr0000gn/T/.org.chromium.Chromium.36oifH"
       },
       "fedcm:accounts": true,
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:55007"
+         "debuggerAddress": "localhost:63915"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
@@ -269,10 +278,1223 @@ DevTools listening on ws://127.0.0.1:55007/devtools/browser/589d16ae-e409-410a-a
       "webauthn:extension:prf": true,
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "aba5c9b1aa385170ad413bac2aeaebb1"
+   "sessionId": "94ae0914e7ae6615c215abf82debd8a4"
 }
-[1737328150.082][INFO]: [aba5c9b1aa385170ad413bac2aeaebb1] COMMAND Quit {
+[1737363598.339][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND Navigate {
+   "url": "http://127.0.0.1:9090/login"
 }
-[1737328150.138][INFO]: [aba5c9b1aa385170ad413bac2aeaebb1] RESPONSE Quit
-[1737328150.138][DEBUG]: Log type 'driver' lost 0 entries on destruction
-[1737328150.138][DEBUG]: Log type 'browser' lost 0 entries on destruction
+[1737363598.339][INFO]: Waiting for pending navigations...
+[1737363598.339][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=10) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.340][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=10) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.340][INFO]: Done waiting for pending navigations. Status: ok
+[1737363598.340][DEBUG]: DevTools WebSocket Command: Page.navigate (id=11) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363598.350][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+2025-01-20 09:59:58.382 Google Chrome[81157:11882864] +[IMKClient subclass]: chose IMKClient_Modern
+2025-01-20 09:59:58.382 Google Chrome[81157:11882864] +[IMKInputSession subclass]: chose IMKInputSession_Modern
+[1737363598.461][DEBUG]: DevTools WebSocket Response: Page.navigate (id=11) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "E52BE4FC4C76FD79C723F3ABF63AC073"
+}
+[1737363598.461][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=12) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.462][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.462][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.462][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "804DDA30D8E2C3DF2D9E3DA8032D55AE",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363598.470][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 1,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "5170991428112685947.-504029761720366173"
+   }
+}
+[1737363598.476][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=12) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.476][INFO]: Waiting for pending navigations...
+[1737363598.476][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=13) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.491][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.168084
+}
+[1737363598.520][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=13) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.521][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.200896
+}
+[1737363598.521][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=14) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "5170991428112685947.-504029761720366173"
+}
+[1737363598.523][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.524][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.526][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=14) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363598.526][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=15) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.526][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=15) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.526][INFO]: Done waiting for pending navigations. Status: ok
+[1737363598.526][DEBUG]: DevTools WebSocket Command: Page.navigate (id=16) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363598.529][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.531][DEBUG]: DevTools WebSocket Response: Page.navigate (id=16) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "2325DFA3461AD13BFEE4F32390C47FD8"
+}
+[1737363598.531][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=17) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.534][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.534][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "422C11AB5D28A73CBD75FDAA19D2EAE2",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363598.535][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 2,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-5842957349150709478.5389498305191351131"
+   }
+}
+[1737363598.535][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=17) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.535][INFO]: Waiting for pending navigations...
+[1737363598.535][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=18) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.583][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.236878
+}
+[1737363598.583][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=18) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.583][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.238239
+}
+[1737363598.583][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=19) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-5842957349150709478.5389498305191351131"
+}
+[1737363598.588][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.588][DEBUG]: DevTools WebSocket Event: Page.frameResized (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.588][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=19) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363598.588][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=20) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.589][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=20) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.589][INFO]: Done waiting for pending navigations. Status: ok
+[1737363598.589][DEBUG]: DevTools WebSocket Command: Page.navigate (id=21) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363598.592][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.594][DEBUG]: DevTools WebSocket Response: Page.navigate (id=21) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "6CD7CD7AD4662FD10E79E3C28068D0B3"
+}
+[1737363598.595][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=22) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.609][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363598.609][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "9F52252A1A914A792C67BF3000F2F811",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363598.609][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 3,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "2180214995353435717.-7593985452330070437"
+   }
+}
+[1737363598.610][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.285333
+}
+[1737363598.610][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=22) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.610][INFO]: Waiting for pending navigations...
+[1737363598.610][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842671.285959
+}
+[1737363598.610][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=23) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "2180214995353435717.-7593985452330070437"
+}
+[1737363598.610][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363598.611][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=23) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363598.611][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=24) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363598.611][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=24) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363598.611][INFO]: Done waiting for pending navigations. Status: ok
+[1737363598.611][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363599.616][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND Navigate {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363599.616][INFO]: Waiting for pending navigations...
+[1737363599.616][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=25) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.617][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=25) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.617][INFO]: Done waiting for pending navigations. Status: ok
+[1737363599.617][DEBUG]: DevTools WebSocket Command: Page.navigate (id=26) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363599.628][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.628][DEBUG]: DevTools WebSocket Response: Page.navigate (id=26) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "E5EBFC82E13ABE1D963F0DEF35C93EC7"
+}
+[1737363599.631][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=27) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.633][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363599.633][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "3C99678CC8219A83DF1569D0302F51E6",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363599.633][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 4,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-869659228537632828.6401588972917808737"
+   }
+}
+[1737363599.640][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.317776
+}
+[1737363599.640][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=27) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.640][INFO]: Waiting for pending navigations...
+[1737363599.640][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=28) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.640][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.318614
+}
+[1737363599.640][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=29) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-869659228537632828.6401588972917808737"
+}
+[1737363599.641][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.642][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=28) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.642][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=29) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363599.642][INFO]: Done waiting for pending navigations. Status: ok
+[1737363599.642][DEBUG]: DevTools WebSocket Command: Page.navigate (id=30) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363599.643][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.646][DEBUG]: DevTools WebSocket Response: Page.navigate (id=30) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "A9E89EC03BEBBBFC3CD6600883D7AE1E"
+}
+[1737363599.646][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=31) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.649][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363599.649][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "132E9F390C234605D83F0328AF511E7C",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363599.649][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 5,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-7154021399401487150.-9177793049551970672"
+   }
+}
+[1737363599.652][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.332616
+}
+[1737363599.652][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=31) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.652][INFO]: Waiting for pending navigations...
+[1737363599.652][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=32) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.657][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.33326
+}
+[1737363599.657][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=33) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-7154021399401487150.-9177793049551970672"
+}
+[1737363599.657][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.658][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=32) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.658][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=33) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363599.658][INFO]: Done waiting for pending navigations. Status: ok
+[1737363599.658][DEBUG]: DevTools WebSocket Command: Page.navigate (id=34) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363599.661][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.663][DEBUG]: DevTools WebSocket Response: Page.navigate (id=34) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "7AB239C25AC52052D1EF4BF4A206D489"
+}
+[1737363599.663][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=35) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.664][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363599.664][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "869B8FC61D8B69012F8E62DE272AB675",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363599.666][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 6,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "7756003293613509120.7002578060818973022"
+   }
+}
+[1737363599.666][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=35) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.666][INFO]: Waiting for pending navigations...
+[1737363599.666][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=36) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.671][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.350566
+}
+[1737363599.672][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=36) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.673][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842672.351253
+}
+[1737363599.673][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=37) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "7756003293613509120.7002578060818973022"
+}
+[1737363599.673][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363599.674][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=37) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363599.674][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=38) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363599.674][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=38) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363599.674][INFO]: Done waiting for pending navigations. Status: ok
+[1737363599.674][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363600.683][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND Navigate {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363600.683][INFO]: Waiting for pending navigations...
+[1737363600.683][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=39) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.684][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=39) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.684][INFO]: Done waiting for pending navigations. Status: ok
+[1737363600.684][DEBUG]: DevTools WebSocket Command: Page.navigate (id=40) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "url": "http://127.0.0.1:9090/login"
+}
+[1737363600.687][DEBUG]: DevTools WebSocket Event: Page.frameStartedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363600.695][DEBUG]: DevTools WebSocket Response: Page.navigate (id=40) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "errorText": "net::ERR_CONNECTION_REFUSED",
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+   "loaderId": "6A93B1B110C9C1A4A1F68B564BDEFA4E"
+}
+[1737363600.695][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=41) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.696][DEBUG]: DevTools WebSocket Event: Runtime.executionContextsCleared (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363600.696][DEBUG]: DevTools WebSocket Event: Page.frameNavigated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frame": {
+      "adFrameStatus": {
+         "adFrameType": "none"
+      },
+      "crossOriginIsolatedContextType": "NotIsolated",
+      "domainAndRegistry": "",
+      "gatedAPIFeatures": [  ],
+      "id": "5E39C7508841D5C66DE2D46F418EE43F",
+      "loaderId": "1BD2FD80B8C784E6A06B967D3CF578BC",
+      "mimeType": "text/html",
+      "secureContextType": "InsecureScheme",
+      "securityOrigin": "://",
+      "unreachableUrl": "http://127.0.0.1:9090/login",
+      "url": "chrome-error://chromewebdata/"
+   },
+   "type": "Navigation"
+}
+[1737363600.696][DEBUG]: DevTools WebSocket Event: Runtime.executionContextCreated (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "context": {
+      "auxData": {
+         "frameId": "5E39C7508841D5C66DE2D46F418EE43F",
+         "isDefault": true,
+         "type": "default"
+      },
+      "id": 7,
+      "name": "",
+      "origin": "://",
+      "uniqueId": "-2381399624397873435.-3250607595835013468"
+   }
+}
+[1737363600.698][DEBUG]: DevTools WebSocket Event: Page.domContentEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842673.37783
+}
+[1737363600.698][DEBUG]: DevTools WebSocket Event: Page.loadEventFired (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "timestamp": 842673.378547
+}
+[1737363600.698][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=42) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "awaitPromise": false,
+   "expression": "document.readyState",
+   "returnByValue": true,
+   "uniqueContextId": "-2381399624397873435.-3250607595835013468"
+}
+[1737363600.698][DEBUG]: DevTools WebSocket Event: Page.frameStoppedLoading (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363600.698][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=41) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.699][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=42) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "type": "string",
+      "value": "complete"
+   }
+}
+[1737363600.699][INFO]: Waiting for pending navigations...
+[1737363600.699][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=43) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.699][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=43) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.699][INFO]: Done waiting for pending navigations. Status: ok
+[1737363600.699][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE Navigate ERROR unknown error: net::ERR_CONNECTION_REFUSED
+  (Session info: chrome=132.0.6834.84)
+[1737363600.703][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363600.703][INFO]: Waiting for pending navigations...
+[1737363600.703][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=44) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.706][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=44) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.706][INFO]: Done waiting for pending navigations. Status: ok
+[1737363600.707][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=45) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363600.708][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=45) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "5E39C7508841D5C66DE2D46F418EE43F",
+         "loaderId": "1BD2FD80B8C784E6A06B967D3CF578BC",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://127.0.0.1:9090/login",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363600.708][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=46) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363600.709][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=46) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "5E39C7508841D5C66DE2D46F418EE43F",
+         "loaderId": "1BD2FD80B8C784E6A06B967D3CF578BC",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://127.0.0.1:9090/login",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363600.710][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=47) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-2381399624397873435.-3250607595835013468"
+}
+[1737363600.722][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=47) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-3560477466652268238.7.1",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363600.724][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=48) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.724][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=48) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.724][INFO]: Waiting for pending navigations...
+[1737363600.724][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=49) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363600.725][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=49) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363600.725][INFO]: Done waiting for pending navigations. Status: ok
+[1737363600.725][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363601.228][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363601.228][INFO]: Waiting for pending navigations...
+[1737363601.228][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=50) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363601.228][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=50) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363601.228][INFO]: Done waiting for pending navigations. Status: ok
+[1737363601.228][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=51) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363601.229][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=51) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "5E39C7508841D5C66DE2D46F418EE43F",
+         "loaderId": "1BD2FD80B8C784E6A06B967D3CF578BC",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://127.0.0.1:9090/login",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363601.229][DEBUG]: DevTools WebSocket Command: Page.getFrameTree (id=52) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+}
+[1737363601.229][DEBUG]: DevTools WebSocket Response: Page.getFrameTree (id=52) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "frameTree": {
+      "frame": {
+         "adFrameStatus": {
+            "adFrameType": "none"
+         },
+         "crossOriginIsolatedContextType": "NotIsolated",
+         "domainAndRegistry": "",
+         "gatedAPIFeatures": [  ],
+         "id": "5E39C7508841D5C66DE2D46F418EE43F",
+         "loaderId": "1BD2FD80B8C784E6A06B967D3CF578BC",
+         "mimeType": "text/html",
+         "secureContextType": "InsecureScheme",
+         "securityOrigin": "://",
+         "unreachableUrl": "http://127.0.0.1:9090/login",
+         "url": "chrome-error://chromewebdata/"
+      }
+   }
+}
+[1737363601.230][DEBUG]: DevTools WebSocket Command: Runtime.callFunctionOn (id=53) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "arguments": [  ],
+   "awaitPromise": true,
+   "functionDeclaration": "function(){ return (function() { // Copyright 2012 The Chromium Authors\n// Use of this source code is governed by a BSD-style license that can be\n// found in the LICENSE file.\n\n/**\n * Enum for WebD...",
+   "serializationOptions": {
+      "serialization": "deep"
+   },
+   "uniqueContextId": "-2381399624397873435.-3250607595835013468"
+}
+[1737363601.232][DEBUG]: DevTools WebSocket Response: Runtime.callFunctionOn (id=53) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "className": "Array",
+      "deepSerializedValue": {
+         "type": "array",
+         "value": [ {
+            "type": "string",
+            "value": "{\"status\":32,\"value\":\"An invalid or illegal selector was specified\"}"
+         } ]
+      },
+      "description": "Array(1)",
+      "objectId": "-3560477466652268238.7.2",
+      "subtype": "array",
+      "type": "object"
+   }
+}
+[1737363601.232][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=54) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363601.233][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=54) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363601.233][INFO]: Waiting for pending navigations...
+[1737363601.233][DEBUG]: DevTools WebSocket Command: Runtime.evaluate (id=55) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "expression": "1"
+}
+[1737363601.233][DEBUG]: DevTools WebSocket Response: Runtime.evaluate (id=55) (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "result": {
+      "description": "1",
+      "type": "number",
+      "value": 1
+   }
+}
+[1737363601.233][INFO]: Done waiting for pending navigations. Status: ok
+[1737363601.233][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=132.0.6834.84)
+[1737363601.260][DEBUG]: DevTools WebSocket Event: Inspector.detached (session_id=FD9FCB966209BB77BB5C721D2C00D357) 5E39C7508841D5C66DE2D46F418EE43F {
+   "reason": "Render process gone."
+}
+[1737363601.262][DEBUG]: DevTools WebSocket Event: Target.detachedFromTarget (session_id=) browser {
+   "sessionId": "FD9FCB966209BB77BB5C721D2C00D357",
+   "targetId": "5E39C7508841D5C66DE2D46F418EE43F"
+}
+[1737363601.737][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363601.737][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363602.241][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363602.242][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363602.748][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363602.748][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363603.253][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363603.253][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363603.756][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363603.756][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363604.259][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363604.259][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363604.763][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363604.763][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363605.266][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363605.266][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363605.771][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@usernameField"
+}
+[1737363605.771][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363605.779][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363605.779][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363606.282][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363606.282][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363606.785][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363606.785][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363607.289][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363607.290][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363607.795][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363607.795][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363608.299][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363608.299][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363608.809][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363608.810][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363609.316][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363609.316][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363609.819][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363609.820][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363610.330][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363610.330][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363610.852][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@passwordField"
+}
+[1737363610.852][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363610.857][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363610.857][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363611.359][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363611.359][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363611.862][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363611.862][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363612.365][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363612.365][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363612.868][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363612.868][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363613.372][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363613.373][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363613.879][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363613.879][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363614.382][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363614.382][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363614.887][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363614.887][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363615.392][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363615.393][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363615.896][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@submitButton"
+}
+[1737363615.896][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363615.907][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363615.907][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363616.409][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363616.409][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363616.912][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363616.912][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363617.415][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363617.415][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363617.920][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363617.920][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363618.423][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363618.423][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363618.926][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363618.926][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363619.429][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363619.429][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363619.932][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363619.932][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363620.435][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363620.435][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363620.940][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND FindElements {
+   "using": "css selector",
+   "value": "@dashboard"
+}
+[1737363620.940][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE FindElements ERROR no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=132.0.6834.84)
+[1737363621.004][INFO]: [94ae0914e7ae6615c215abf82debd8a4] COMMAND Quit {
+}
+[1737363621.059][INFO]: [94ae0914e7ae6615c215abf82debd8a4] RESPONSE Quit
+[1737363621.061][DEBUG]: Log type 'driver' lost 0 entries on destruction
+[1737363621.061][DEBUG]: Log type 'browser' lost 0 entries on destruction

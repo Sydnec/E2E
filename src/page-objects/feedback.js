@@ -10,7 +10,7 @@ module.exports = {
         {
             // Méthode personnalisée pour la page Feedback
             navigateToFeedbackPage() {
-                return this.api.url('http://localhost:3000/feedback');
+                return this.api.url('http://localhost:9090/feedback');
             },
         },
     ],

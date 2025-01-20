@@ -5,7 +5,7 @@ module.exports = {
     const contactPage = browser.page.contact();
 
     contactPage
-      .navigate()
+      .navigateToContactPage()
       .setValue('@firstNameField', 'Jean')
       .setValue('@lastNameField', 'Louis')
       .setValue('@mobilePhoneField', '0610203040')
